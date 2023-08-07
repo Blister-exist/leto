@@ -1,0 +1,114 @@
+@media screen and (max-width: 1440px){
+    .parallax__layer--back{
+        transform: translateZ(-1px) scale(2.5);
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .header__heading{
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .description{
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .footer__description{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .footer__contacts{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .footer__small{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .parallax__layer--back{
+        right: 0;
+        bottom: -100%;
+        transform: translateZ(-1px) scale(3);
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .header__heading{
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .description{
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .footer__description{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .footer__contacts{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .footer__small{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .parallax__layer--back{
+        bottom: -100%;
+        transform: translateZ(-1px) scale(3);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header__row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header__heading{
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .description{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .footer__description{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .footer__contacts{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .footer__small{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .parallax__layer--back{
+        transform: translateZ(-1px) scale(3);
+    }
+
+    .footer__row{
+        flex-direction: column;
+    }
+
+}
